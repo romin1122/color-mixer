@@ -1,0 +1,50 @@
+body {
+    background-color: #000000;
+    margin:0;
+    padding:0;
+}
+
+#result {
+    height: 40vw;
+    width: 100vw;
+
+    margin-bottom:1.2em;
+}
+
+#colorWheel {
+    width: 100vw
+}
+
+#colors {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:auto
+}
+
+.item {
+    height: 20vw;
+    width: 20vw;
+    background-color: red;
+    margin: 2vw;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+
+#btnContainer {
+    width:100vw;
+}
+#add {
+    background-color:white;
+    border: 2px solid gray;
+    color: black;
+    font-size: 2em;
+    border-radius: 50%;
+    padding: .5em;
+
+    margin: auto;
+}
+
+.selected {
+    border: 4px solid red;
+}
